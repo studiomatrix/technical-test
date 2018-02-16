@@ -1,0 +1,51 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+.navbar {
+  border-bottom: 0;
+  margin-bottom: 0;
+}
+
+.alert {
+  margin-top: 1em;
+}
+
+#home--container {
+  height: calc(100vh - 50px);
+  background-size: cover;
+  background-position: bottom center;
+}
+
+#home--hero-text {
+  color: #ffffff;
+  text-align: center;
+  padding-top: 40vh;
+
+  h1 {
+    font-size: 4em;
+    text-transform: uppercase;
+  }
+}
+
+#cooks--submit {
+  width: 33%;
+}
+
+.cook--request-heading {
+  height: 60px;
+
+  .cook--request-title {
+    float: left;
+  }
+}
+
+.cook--request-delete {
+  float: right;
+}
